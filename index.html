@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iscrivi!</title>
+    <style>
+        body {
+            text-align: center;
+            background-image: url(sfondoo.jpg);
+        }       
+        ::placeholder   {
+            text-align: center;
+            color: red;
+        }
+        h4 {
+            text-align: center;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: white;">COMPILA IL FORM ED ISCRIVITI!</h1>
+    <form onsubmit="alert('Form Inviato!')">
+
+     <div>
+         <input type="text" placeholder="NOME">
+         <input type="text" placeholder="COGNOME">
+     </div>
+
+     <br>
+
+     <div>
+         <input type="mail" placeholder="E-MAIL">
+     </div>
+
+     <br>
+
+     <div>
+         <input type="password" placeholder="PASSWORD">
+     </div>
+
+     <br>
+
+     <div>
+         <input type="date">
+     </div>
+
+     <br>
+
+     <div>
+          <input type="number" placeholder="TELEFONO">
+     </div>
+
+     <h4>Scegli i tuoi gusti musicali!</h4>
+
+       <div>
+         <input type="checkbox"/>Jazz
+         <input type="checkbox"/>Classica
+         <input type="checkbox"/>Rock
+         <input type="checkbox"/>Rap
+         <input type="checkbox"/>Country
+     </div>
+
+     <div>
+         <input type="checkbox"/>Folk
+         <input type="checkbox"/>House
+         <input type="checkbox"/>Pop
+         <input type="checkbox"/>Dubstep
+     </div>
+     <div>
+         <p>Accetti termini e condizioni?</p>
+         <input type="radio" name="termini e condizioni" />Accetto
+         <input type="radio" name="termini e condizioni" />Non accetto
+     </div>
+     <br>
+     <div>
+         <input type="submit">
+     </div>
+
+    </form>
+    
+
+
+  
+</body>
+</html>
